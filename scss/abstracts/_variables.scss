@@ -1,0 +1,22 @@
+$color-primary-red:hsl(0, 100%, 74%);
+$color-primary-green:hsl(154, 59%, 51%);
+$color-text-primary: #fff;
+$color-accent-blue:hsl(248, 32%, 49%);
+
+$color-neutral-dark-blue:hsl(249, 10%, 26%) ;
+$color-neutral-grayish-blue:hsl(246, 25%, 77%) ;
+$border-radius: 0.625rem;
+
+// Breakpoints
+
+$screen-xs-max: 426px;
+$screen-sm-max: 576px;
+
+// Small tablets (portrait view)
+$screen-md-max: 768px;
+
+// Tablets and small desktops
+$screen-lg-max: 992px;
+
+// Large tablets and desktops
+$screen-xl-max: 1200px;

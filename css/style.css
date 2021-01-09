@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; }
+
+body {
+  box-sizing: border-box;
+  line-height: 1.7; }
+
+a {
+  text-decoration: none; }
+
+.intro-form--header {
+  color: #fff;
+  height: 100vh;
+  background-image: url("/images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  @media only screen and (max-width: 576px) {
+    .intro-form--header {
+      background-image: url("/images/bg-intro-mobile.png"); } }
+  @media only screen and (max-width: 426px) {
+    .intro-form--header {
+      background-image: url("/images/bg-intro-mobile.png"); } }
+
+.intro-form--footer {
+  padding: 1rem;
+  text-align: center;
+  color: #6055a5;
+  background-color: #fff; }
+  .intro-form--footer a {
+    color: #ff7a7a;
+    text-decoration: none;
+    border-bottom: 3px dotted #ff7a7a; }
+
+.signup {
+  display: grid;
+  grid-template-columns: 41% auto;
+  align-items: center;
+  column-gap: 4rem;
+  max-width: 80%;
+  justify-content: center; }
+  @media only screen and (max-width: 576px) {
+    .signup {
+      grid-template-columns: auto; } }
+  @media only screen and (max-width: 768px) {
+    .signup {
+      grid-template-columns: auto; } }
+  .signup-header {
+    padding: 1rem 0; }
+    @media only screen and (max-width: 576px) {
+      .signup-header {
+        text-align: center;
+        margin-bottom: 2.5rem; } }
+    @media only screen and (max-width: 768px) {
+      .signup-header {
+        text-align: center;
+        margin-bottom: 2.5rem; } }
+    .signup-header--primary {
+      font-size: 2.5rem;
+      margin-bottom: 2rem; }
+      @media only screen and (max-width: 992px) {
+        .signup-header--primary {
+          font-size: 2rem; } }
+    .signup-header--secondary {
+      font-size: 1rem; }
+  .signup-form {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    font-weight: 500; }
+    @media only screen and (max-width: 426px) {
+      .signup-form {
+        padding: 0 0 !important; } }
+    @media only screen and (max-width: 576px) {
+      .signup-form {
+        padding: 0 2rem; } }
+    @media only screen and (max-width: 768px) {
+      .signup-form {
+        padding: 0 3rem; } }
+    .signup-form--offer {
+      background-color: #6055a5;
+      border-radius: 0.625rem;
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      text-align: center; }
+      @media only screen and (max-width: 992px) {
+        .signup-form--offer {
+          padding: 1rem; } }
+      @media only screen and (max-width: 768px) {
+        .signup-form--offer {
+          padding: 1rem; } }
+    .signup-form--section {
+      background-color: white;
+      border-radius: 0.625rem;
+      padding: 2rem; }
+
+.form-control input {
+  height: 42px;
+  border-radius: 0.3rem;
+  border: 2px solid #e7e6f0;
+  color: #3e3c49;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  transition: 0.5s;
+  padding: 1.3rem 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  caret-color: #3e3c49; }
+
+.form-control input::placeholder {
+  color: #3e3c49; }
+
+.form-control input:focus {
+  border: 2px solid #3e3c49;
+  outline: none;
+  border-radius: 0.3rem; }
+
+.form-submit {
+  text-align: center; }
+  .form-submit--btn {
+    background-color: #38cc8c;
+    border-radius: 0.625rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    border: 1px solid #38cc8c;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    cursor: pointer;
+    outline: none; }
+  .form-submit--message {
+    color: #b9b6d3;
+    font-size: 0.7rem; }
+    .form-submit--message a {
+      color: #ff7a7a;
+      cursor: pointer; }
