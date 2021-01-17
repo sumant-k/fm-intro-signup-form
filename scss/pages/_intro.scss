@@ -1,0 +1,81 @@
+
+.signup{
+  background: url("../images/bg-intro-desktop.png") $color-primary-red;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4rem 12rem;
+  font-size: 1rem;
+  @include md{
+    font-size: 0.8rem;
+    padding: 4rem 4rem;
+  }
+  @include lg{
+    padding: 4rem 4rem;
+    font-size: 0.8rem;
+  }
+  @include sm{
+    font-size: 1rem;
+    padding: 5rem 2rem;
+  }
+  &__text{
+    flex: 50%;
+    @include sm{
+      flex: 100%;
+    }
+    padding-right: 4rem;
+    @include md{
+      padding-right: 2rem;
+    }
+    @include sm{
+      margin-bottom: 3rem;
+      text-align: center;
+      padding: 0;
+    }
+  }
+  &__form{
+    background-color: $color-white;
+    border-radius: $primary-border-big;
+    padding: 2rem;
+  }
+  &__form-wrapper{
+    flex: 50%;
+    @include sm{
+      flex: 100%;
+    }
+    border-radius: $primary-border-big;
+    padding: 1rem;
+    @include md{
+      padding: 0;
+    }
+    @include lg{
+      padding: 0;
+    }
+  }
+  &__pricing{
+    background-color: $color-accent-blue;
+    border-radius: $primary-border-big;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 .5rem 0 0 rgba(black, 0.2);
+    color: lighten($color-neutral-grayish-blue, 15%);
+    strong{
+      color: lighten($color-neutral-grayish-blue, 50%);
+      font-weight: 500;
+    }
+  }
+  &__terms-condition{
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    small{
+      color: $color-neutral-grayish-blue;
+      font-size: 0.7rem;
+      a{
+        color: $color-primary-red;
+      }
+    }
+  }
+}

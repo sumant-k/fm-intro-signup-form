@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 100%; }
+
+body {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff; }
+
+.signup__text {
+  color: #fff;
+  display: block; }
+  .signup__text--main {
+    font-size: 2.8rem;
+    font-weight: 700;
+    display: block;
+    box-decoration-break: clone;
+    margin-bottom: 1rem; }
+    @media only screen and (max-width: 768px) {
+      .signup__text--main {
+        font-size: 2rem; } }
+    @media only screen and (max-width: 992px) {
+      .signup__text--main {
+        font-size: 2rem; } }
+  .signup__text--sub {
+    color: #f6f5f9;
+    font-size: 1rem;
+    font-weight: 500;
+    display: block; }
+
+.signup {
+  background: url("../images/bg-intro-desktop.png") #ff7a7a;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4rem 12rem;
+  font-size: 1rem; }
+  @media only screen and (max-width: 768px) {
+    .signup {
+      font-size: 0.8rem;
+      padding: 4rem 4rem; } }
+  @media only screen and (max-width: 992px) {
+    .signup {
+      padding: 4rem 4rem;
+      font-size: 0.8rem; } }
+  @media only screen and (max-width: 576px) {
+    .signup {
+      font-size: 1rem;
+      padding: 5rem 2rem; } }
+  .signup__text {
+    flex: 50%;
+    padding-right: 4rem; }
+    @media only screen and (max-width: 576px) {
+      .signup__text {
+        flex: 100%; } }
+    @media only screen and (max-width: 768px) {
+      .signup__text {
+        padding-right: 2rem; } }
+    @media only screen and (max-width: 576px) {
+      .signup__text {
+        margin-bottom: 3rem;
+        text-align: center;
+        padding: 0; } }
+  .signup__form {
+    background-color: #fff;
+    border-radius: 0.7rem;
+    padding: 2rem; }
+  .signup__form-wrapper {
+    flex: 50%;
+    border-radius: 0.7rem;
+    padding: 1rem; }
+    @media only screen and (max-width: 576px) {
+      .signup__form-wrapper {
+        flex: 100%; } }
+    @media only screen and (max-width: 768px) {
+      .signup__form-wrapper {
+        padding: 0; } }
+    @media only screen and (max-width: 992px) {
+      .signup__form-wrapper {
+        padding: 0; } }
+  .signup__pricing {
+    background-color: #6055a5;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.5rem 0 0 rgba(0, 0, 0, 0.2);
+    color: #e7e6f0; }
+    .signup__pricing strong {
+      color: white;
+      font-weight: 500; }
+  .signup__terms-condition {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem; }
+    .signup__terms-condition small {
+      color: #b9b6d3;
+      font-size: 0.7rem; }
+      .signup__terms-condition small a {
+        color: #ff7a7a; }
+
+.form__group:not(:last-child) {
+  margin-bottom: 1rem; }
+
+.form__input {
+  font-family: inherit;
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #d7d6e6;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+  outline: none;
+  font-weight: 600;
+  color: #252140; }
+  .form__input:focus {
+    border: 2px solid #6055a5; }
+
+.form__submit-btn {
+  background-color: #38cc8c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f6f5f9;
+  border: 2px solid #38cc8c;
+  outline: none; }
+  .form__submit-btn:focus, .form__submit-btn:active, .form__submit-btn:hover {
+    border: 2px solid #6055a5;
+    box-shadow: 0 0.4rem 0.5rem 0 rgba(96, 85, 165, 0.1); }
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+  border: 2px solid transparent;
+  width: 100%;
+  font-weight: 500;
+  transition: all 0.3s;
+  outline: none;
+  cursor: pointer; }
+  @media only screen and (max-width: 768px) {
+    .btn {
+      padding: 1rem 1rem; } }
+  @media only screen and (max-width: 992px) {
+    .btn {
+      padding: 1rem 1rem; } }
+
+.footer {
+  color: white;
+  text-align: center;
+  margin-top: 2rem; }
+  .footer__attribution {
+    color: white; }
+    .footer__attribution a {
+      color: #4c4483; }

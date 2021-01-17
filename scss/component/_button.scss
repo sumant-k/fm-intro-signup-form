@@ -1,0 +1,15 @@
+.btn{
+  padding: 1rem 2rem;
+  border-radius: $primary-border-small;
+  border: 2px solid transparent;
+  width: 100%;
+  font-weight: 500;
+  transition: all 0.3s;
+  outline: none;
+  cursor: pointer;
+  @include md{
+    padding: 1rem 1rem;
+  }@include lg{
+    padding: 1rem 1rem;
+  }
+}

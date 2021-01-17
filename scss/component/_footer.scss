@@ -1,0 +1,11 @@
+.footer{
+  color: white;
+  text-align: center;
+  margin-top:2rem;
+  &__attribution{
+    color: white;
+    a{
+      color: darken($color-accent-blue, 10%);
+    }
+  }
+}
