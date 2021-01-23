@@ -40,4 +40,6 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 
 ## Deployed Solution
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56310120-289f-4d36-bdda-cc67966be9de/deploy-status)](https://app.netlify.com/sites/kind-goodall-0a84a8/deploys)
+
 https://kind-goodall-0a84a8.netlify.app/
