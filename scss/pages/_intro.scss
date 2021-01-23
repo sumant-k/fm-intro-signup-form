@@ -4,33 +4,30 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 4rem 12rem;
+  padding: 0 12rem;
   font-size: 1rem;
   @include md {
+    padding: 0 2rem;
     font-size: 0.8rem;
-    padding: 4rem 4rem;
   }
   @include lg {
-    padding: 4rem 4rem;
-    font-size: 0.8rem;
+    padding: 0 2rem;
   }
   @include sm {
     font-size: 1rem;
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
   }
   &__text {
     flex: 50%;
+    padding-right: 4rem;
     @include sm {
       flex: 100%;
-    }
-    padding-right: 4rem;
-    @include md {
-      padding-right: 2rem;
-    }
-    @include sm {
       margin-bottom: 3rem;
       text-align: center;
       padding: 0;
+    }
+    @include md {
+      padding-right: 2rem;
     }
   }
   &__form {
