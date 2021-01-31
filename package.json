@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-sass": "node-sass scss/main.scss css/style.css  -w",
-    "compile": "node-sass scss/main.scss css/style.css "
+    "watch:sass": "node-sass scss/main.scss css/style.css  -w",
+    "compile:sass": "node-sass scss/main.scss css/style.css",
+    "start:server": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "node-sass": "^5.0.0"
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1"
   }
 }

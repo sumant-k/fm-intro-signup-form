@@ -1,11 +1,23 @@
-.footer {
-  text-align: center;
-  margin-top: 2rem;
-
-  &__attribution {
+.attribution {
+  border-top: 2px solid $color-accent-blue;
+  font-size: 1rem;
+  color: $color-accent-blue;
+  a {
+    outline: none;
+    display: inline-block;
+    margin: 0 0.3rem;
+    text-decoration: none;
     color: $color-primary-red;
-    a {
-      color: darken($color-accent-blue, 10%);
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid $color-primary-red;
+    transition: all 0.3s;
+    &:active,
+    &:hover {
+      border: 2px solid $color-primary-green;
     }
   }
+  padding: 2rem;
+  text-align: center;
 }

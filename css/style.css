@@ -182,10 +182,22 @@ body {
     .btn {
       padding: 1rem 1rem; } }
 
-.footer {
-  text-align: center;
-  margin-top: 2rem; }
-  .footer__attribution {
-    color: #ff7a7a; }
-    .footer__attribution a {
-      color: #4c4483; }
+.attribution {
+  border-top: 2px solid #6055a5;
+  font-size: 1rem;
+  color: #6055a5;
+  padding: 2rem;
+  text-align: center; }
+  .attribution a {
+    outline: none;
+    display: inline-block;
+    margin: 0 0.3rem;
+    text-decoration: none;
+    color: #ff7a7a;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid #ff7a7a;
+    transition: all 0.3s; }
+    .attribution a:active, .attribution a:hover {
+      border: 2px solid #38cc8c; }
